@@ -24,7 +24,7 @@
                                 <connections>
                                     <action selector="bthGreed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4i-qs-2dY"/>
                                     <action selector="unwind:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnv-fz-A18"/>
-                                    <segue destination="hvR-sW-Vqr" kind="show" id="AN6-Y5-fPB"/>
+                                    <segue destination="hvR-sW-Vqr" kind="show" id="8Cv-KB-nOm"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tpk-gY-pnZ">
@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87.786259541984734" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="-321" y="4"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="y4w-4G-8GR">

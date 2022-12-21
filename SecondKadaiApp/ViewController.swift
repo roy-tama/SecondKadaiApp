@@ -12,9 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var name: UITextField!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        resultViewController
+        resultViewController.label = name.text!
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
