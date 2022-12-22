@@ -22,8 +22,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ごあいさつ"/>
                                 <connections>
-                                    <action selector="aaa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pX5-eX-KDV"/>
-                                    <action selector="bthGreed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4i-qs-2dY"/>
                                     <action selector="unwind:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnv-fz-A18"/>
                                     <segue destination="hvR-sW-Vqr" kind="show" id="8Cv-KB-nOm"/>
                                 </connections>
@@ -62,13 +60,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNL-GF-aWc">
-                                <rect key="frame" x="175" y="268" width="42" height="1854"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygr-tR-BUG">
                                 <rect key="frame" x="167" y="449" width="59" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -78,14 +69,20 @@
                                     <segue destination="z0q-It-XxH" kind="unwind" unwindAction="unwind:" id="TWB-Ws-sGD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv0-Bk-iH8">
+                                <rect key="frame" x="118" y="212" width="148" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TcV-ID-bzu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="bnf-pj-Y0W"/>
                     <connections>
-                        <outlet property="label" destination="QNL-GF-aWc" id="6L8-O9-1sW"/>
-                        <outlet property="result" destination="QNL-GF-aWc" id="wEN-Y7-eXp"/>
+                        <outlet property="label" destination="Nv0-Bk-iH8" id="tS1-aq-Ljj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnd-is-8p5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
