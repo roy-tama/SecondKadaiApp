@@ -9,12 +9,12 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    var label:String = ""
+    @IBOutlet weak var label: UILabel!
+    var result:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "a"
-      //  label.text = "こんにちは、\(result)さん"
+        label.text = "こんにちは、\(result)さん"
     }
     
 
