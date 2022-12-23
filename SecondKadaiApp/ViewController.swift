@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        resultViewController.label.text = name.text
+        resultViewController.result = name.text!
     }
     
     override func viewDidLoad() {
